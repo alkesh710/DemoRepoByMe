@@ -3,10 +3,11 @@ package com.qa.test;
 import org.testng.annotations.Test;
 
 public class LoginTest {
-	@Test
+	@Test()
 public void login()
 {
 	System.out.println("login test");
+	System.out.println("Demo");
 }
 
 }
